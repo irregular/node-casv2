@@ -1,4 +1,3 @@
-
 # cas
 
   Central Authentication Service (CAS) V2 client for Node.js
@@ -11,7 +10,7 @@
 
 via npm:
 
-    $ npm install cas
+    $ npm install casv2
 
 ## Usage
 
