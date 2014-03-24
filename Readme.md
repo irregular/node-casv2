@@ -1,7 +1,7 @@
 
 # cas
 
-  Central Authentication Service (CAS) client for Node.js
+  Central Authentication Service (CAS) V2 client for Node.js
 
   This module only handles the ticket validation step of the CAS login process. Planned features include functions to generate the login/logout URLs.
 
@@ -17,7 +17,7 @@ via npm:
 
 Setup:
 
-    var CAS = require('cas');
+    var CAS = require('casv2');
     var cas = new CAS({base_url: 'https://cas.uwaterloo.ca/cas', service: 'my_service'});
 
 Using it in a login route:
@@ -43,7 +43,7 @@ Using it in a login route:
 
 (The MIT License)
 
-Copyright (c) 2011 Casey Banner &lt;kcbanner@gmail.com&gt;
+Copyright (c) 2011 Chris Song &lt;fakechris@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

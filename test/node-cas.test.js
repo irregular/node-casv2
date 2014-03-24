@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var cas = require('node-cas')
+var cas = require('node-casv2')
   , should = require('should');
 
 module.exports = {
